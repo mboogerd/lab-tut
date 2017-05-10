@@ -1,9 +1,9 @@
 import sbt.Keys._
-import tut.Plugin._
+import tut.TutPlugin.autoImport._
 
 object TutConf {
 
-  lazy val settings = tutSettings ++ Seq(
+  lazy val settings = Seq(
     // Location of tut source files.
 //    tutSourceDirectory := sourceDirectory.value / "main" / "tut",
 
